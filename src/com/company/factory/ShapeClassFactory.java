@@ -1,4 +1,4 @@
-package com.company;
+package com.company.factory;
 
 public class ShapeClassFactory<T> {
     public T getInstance(Class clazz) {

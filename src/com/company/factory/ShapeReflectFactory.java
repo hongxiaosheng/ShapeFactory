@@ -1,4 +1,6 @@
-package com.company;
+package com.company.factory;
+
+import com.company.Shape;
 
 public class ShapeReflectFactory {
     public static Shape getShape(Class c) {

@@ -1,6 +1,14 @@
-package com.company;
+package com.company.factory;
 
-public class ShapeFactory {
+import com.company.*;
+
+public class ShapeFactory extends AbstractFactory {
+    @Override
+    public Color getColor(String color) {
+        return null;
+    }
+
+    @Override
     public Shape getShape(String shapeType){
         if(shapeType == null){
             return null;
